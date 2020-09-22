@@ -94,7 +94,7 @@ ps.注意，要导入字符串，想导入int，lang，float，double数字，�
 				  numberchar[i] == '9'||
 				  numberchar[i] == '.'||
 				  numberchar[i] == '@')){
-				System.err.println("The input is not a number!");
+				System.err.println("It is not a number!");
 				return "Errorfour";
 			}
 		//判断数字里有没有除数字和小数点外的字符，有就报错并退出
